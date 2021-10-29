@@ -1,0 +1,12 @@
+server.port: 8088
+spring:
+  application:
+    name: "TestSpringSecurityApp"
+  datasource:
+    url: jdbc:postgresql://localhost:5432/security
+    username: manager
+    password: manager
+  jpa:
+    show-sql: true
+
+jwt.secret: jwtsecret
